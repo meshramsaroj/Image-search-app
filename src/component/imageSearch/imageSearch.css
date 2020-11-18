@@ -1,0 +1,28 @@
+.search-inp {
+  padding: 5px;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid mediumpurple;
+}
+
+.btn {
+  font-size: 15px;
+  padding: 6px 5px;
+  background: mediumpurple;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+@media(max-width: 400px) {
+  .search {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+}
